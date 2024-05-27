@@ -5,7 +5,7 @@
 This project consists of a web scraper and data analyzer for extracting and analyzing watch data from the Louis Erard website. The main functionalities include extracting various attributes of watches, storing the data in a CSV file, and generating visualizations to analyze the data.
 
 ## Requirements
-To run this project, you need to have the following libraries installed:
+in this project I used the following libraries
 
 - Selenium
 - BeautifulSoup
@@ -15,11 +15,7 @@ To run this project, you need to have the following libraries installed:
 - Matplotlib
 - Seaborn
 
-You can install these libraries using
 
-```bash
-  pip install selenium beautifulsoup4 requests pandas numpy matplotlib seaborn
-```
 
 
 ## Setup
@@ -44,7 +40,7 @@ Execute the script to start the web scraping process. The extracted data is stor
 ```
 
 ## File Output
-The scraped data is saved in louiserard_data.csv on the specified file path. Ensure the file path is correctly set to your desired location.
+The scraped data is saved in louiserard_data.csv on the specified file path.
 ```bash
   louiserard_df.to_csv(r"your file path\\\\\louiserard_data.csv", header=True, index=False)
 ```
