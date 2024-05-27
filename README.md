@@ -21,7 +21,7 @@ in this project I used the following libraries
 ## Setup
 ### Web Scraping
 
-The script uses Selenium to navigate to the Louis Erard website and extract watch data. Update the URL variable to specify the webpage to scrape.
+The script uses Selenium to navigate to the Louis Erard website and extract watch data.
 
 
 
